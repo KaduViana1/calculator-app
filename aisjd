@@ -1,0 +1,20 @@
+<div id="full-calc">
+  <div class="header">
+    <div class="header-L">
+      <span style="font-size: 30px;">calc</span>
+    </div>
+    <div class="spantheme">
+      <span>THEME</span>
+    </div>
+    <div class="header-R">
+      <label for="theme-1">1</label>
+      <label for="theme-2">2</label>
+      <label for="theme-3">3</label>
+      <input type="radio" id="theme-1" name="theme" value="theme-1">
+      <input type="radio" id="theme-2" name="theme" value="theme-2">
+      <input type="radio" id="theme-3" name="theme" value="theme-3">
+    </div>
+    <div class="results"></div>
+
+  </div>
+</div>
