@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: aliceblue;
+}
+#full-calc {
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(222, 26%, 31%);
+}
+
+.header {
+    display: flex;
+    width: 100%;
+}
+
+.header-L {
+    width: 65%;
+    background-color: red;
+}
+
+.spantheme {
+    background-color: blue;
+}
+
+.header-R {
+    background-color: yellow;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    width: auto;
+    
+}
