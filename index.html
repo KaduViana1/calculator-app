@@ -12,41 +12,48 @@
 <div id="full-calc">
   <div class="header">
     <div class="header-L">
-      <span style="font-size: 30px;">calc</span>
-      <span>THEME</span>
+      <span style="font-size: 2rem;" class="color">calc</span>
+      <span class="color theme">THEME</span>
     </div>
     <div class="header-R">
-      <label for="theme-1">1</label>
-      <label for="theme-2">2</label>
-      <label for="theme-3">3</label>
-      <input type="radio" id="theme-1" name="theme" value="theme-1">
-      <input type="radio" id="theme-2" name="theme" value="theme-2">
-      <input type="radio" id="theme-3" name="theme" value="theme-3">
+      <div class="toggle-numbers">
+        <label for="theme-1" class="color">1</label>
+        <label for="theme-2" class="color">2</label>
+        <label for="theme-3" class="color">3</label>
+      </div>
+      <div class="toggle-container">
+        <input type="radio" id="theme-1" name="theme" value="theme-1" checked>
+        <input type="radio" id="theme-2" name="theme" value="theme-2">
+        <input type="radio" id="theme-3" name="theme" value="theme-3">
+        <span class="slider"></span>
+      </div>
     </div>
   </div>
-  <div class="results"></div>
+  <div class="results">
+    <span class="result">399,981</span>
+  </div>
   <div class="buttons-container">
-    <button></button>
-    <button></button>
-    <button></button>
-    <button></button>
-    <button></button>
-    <button></button>
-    <button></button>
-    <button></button>
-    <button></button>
-    <button></button>
-    <button></button>
-    <button></button>
-    <button></button>
-    <button></button>
-    <button></button>
-    <button></button>
-    <button></button>
-    <button></button>
+    <button class="button-1 numbers">7</button>
+    <button class="button-2 numbers">8</button>
+    <button class="button-3 numbers">9</button>
+    <button class="button-4 del">DEL</button>
+    <button class="button-5 numbers">4</button>
+    <button class="button-6 numbers">5</button>
+    <button class="button-7 numbers">6</button>
+    <button class="button-8 numbers">+</button>
+    <button class="button-9 numbers">1</button>
+    <button class="button-10 numbers">2</button>
+    <button class="button-11 numbers">3</button>
+    <button class="button-12 numbers">-</button>
+    <button class="button-13 numbers">.</button>
+    <button class="button-14 numbers">0</button>
+    <button class="button-15 numbers">/</button>
+    <button class="button-16 numbers">x</button>
+    <button class="button-17 reset">RESET</button>
+    <button class="button-18 equal">=</button>
   </div>
 </div>
 
   
-
+<script src="./themescript.js"></script>
 </html>
