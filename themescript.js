@@ -67,7 +67,6 @@ function selectTheme() {
         result.style.color = "hsl(60, 10%, 19%)"
         color.forEach((i) => { i.style.color = "hsl(60, 10%, 19%)"})
    
-   
     } else if (input[2].checked ) {
         background.style.backgroundColor = "hsl(268, 75%, 9%)"
         screen.style.backgroundColor = "hsl(268, 71%, 12%)"

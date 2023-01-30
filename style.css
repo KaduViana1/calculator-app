@@ -81,12 +81,12 @@
     row-gap: 15px;
 }
 
-.button-17 {
+.button-reset {
     grid-column: 1 / span 2;
     grid-row: 5 ;
 }
 
-.button-18 {
+.button-equal {
     grid-column: 3 / span 2;
     grid-row: 5;
 }
@@ -166,3 +166,9 @@ button {
 input {
     opacity: 0;
 }
+
+/* @media (prefers-color-scheme: dark) {
+ #full-calc {
+    background-color: hsl(268, 75%, 9%);
+ }
+} */
