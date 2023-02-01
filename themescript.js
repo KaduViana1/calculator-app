@@ -51,7 +51,7 @@ function selectTheme() {
         toggle.style.backgroundColor = "hsl(0, 5%, 81%)"
         buttons.forEach((i)=>{
             i.style.backgroundColor = "hsl(45, 7%, 89%)"
-            i.style.boxShadow = "hsl(35, 11%, 61%)"
+            i.style.boxShadow = "0px 3px hsl(35, 11%, 61%)"
             i.style.color = "hsl(60, 10%, 19%)"
         })
         del.style.backgroundColor = "hsl(185, 42%, 37%)"
@@ -78,7 +78,7 @@ function selectTheme() {
             i.style.color = "hsl(52, 100%, 62%)"
         })
         del.style.backgroundColor = "hsl(281, 89%, 26%)"
-        del.style.boxShadow = "0px 3px hslhsl(285, 91%, 52%)"
+        del.style.boxShadow = "0px 3px hsl(285, 91%, 52%)"
         del.style.color = "white"
         reset.style.backgroundColor = "hsl(281, 89%, 26%)"
         reset.style.boxShadow = "0px 3px hsl(285, 91%, 52%)"
@@ -92,20 +92,3 @@ function selectTheme() {
     };
 };
 
-
-// theme1.addEventListener('change', selectTheme1);
-// theme2.addEventListener('change', selectTheme2);
-// theme3.addEventListener('change', selectTheme3); 
-
-// function selectTheme1() {
-//    background.style.backgroundColor = "hsl(222, 26%, 31%)"
-// };
-
-// function selectTheme2() {
-//    background.style.backgroundColor = "hsl(0, 0%, 90%)"
-// };
-
-// function selectTheme3() {
-//    background.style.backgroundColor = "hsl(268, 75%, 9%)"
-//    span.style.color = "hsl(52, 100%, 62%)"
-// };

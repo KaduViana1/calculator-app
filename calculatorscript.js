@@ -48,9 +48,11 @@ function setXY() {
 }
 
 function displayNumber(x) {
-    if (results == 0 ) {
+    if (results == 0 || result.innerText == '0' ) {
         results = 1
         return result.innerText = x
+    } else if (result.innerText.length >= 10) {
+        return result.innerText
     } else {
         return result.innerText += x
     }
